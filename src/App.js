@@ -46,7 +46,6 @@ function App() {
       </div>
 
       <div className="App">
-
         <NavBar />
 
         <Section id="home">
