@@ -22,7 +22,6 @@ const Projects = () => {
   return (
     <section>
       <h2>Recent Projects</h2>
-      
       {projectList.map((project, index) => (
         <Project key={index} {...project} />
       ))}
