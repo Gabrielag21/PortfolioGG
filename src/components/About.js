@@ -5,7 +5,8 @@ const About = () => {
     return (
         <>
             <h2>About Me</h2>
-            <img src={imageSelf} className='imageSelf' alt='Image of Gabriela' />
+            {/* eslint-disable-next-line */}
+            <img src={imageSelf} className='imageSelf' />
             <p>I am a recent college graduate seeking new opportunites to use my
                 technical skills for a entry level software engineer.
                 As a graduate from CUNY Lehman College, I seek to use my skills learned

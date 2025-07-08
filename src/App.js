@@ -9,15 +9,15 @@ import NavBar from './components/NavBar';
 import WorkExperience from './components/WorkExperience';
 import About from './components/About';
 
-const ToggleButton = styled.button`
-  // position: absolute;
-  top: 10px;
-  left: 10px;
-  background: '${({ theme }) => theme.toggleBorder}';
-  border: none;
-  padding: 10px;
-  cursor: pointer;
-`;
+// const ToggleButton = styled.button`
+//   // position: absolute;
+//   top: 10px;
+//   left: 10px;
+//   background: '${({ theme }) => theme.toggleBorder}';
+//   border: none;
+//   padding: 10px;
+//   cursor: pointer;
+// `;
 
 const Section = styled.section`
   padding: 100px 20px;
