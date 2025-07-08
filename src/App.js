@@ -1,10 +1,9 @@
-import React, { useState } from 'react';
 import logo from './logo.svg';
 import Header from './components/Header';
 import Projects from './components/Projects';
 import './App.css';
 import styled, { ThemeProvider } from 'styled-components';
-import { lightTheme, darkTheme } from './theme';
+import { lightTheme } from './theme';
 import { GlobalStyles } from './GlobalStyles';
 import NavBar from './components/NavBar';
 import WorkExperience from './components/WorkExperience';
